@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace den18_rspo
 {
-    internal class Hotel
+    public class Hotel
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public int CountOfStars { get; set; }
         public string CountryName { get; set; }
         public string HotelImage { get; set; }
+        public string HotelImagyyy { get; set; }
     }
 }
